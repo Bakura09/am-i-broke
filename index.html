@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/app.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>AM I BROKE</title>
+  </head>
+  <body>
+    <main>
+      <h1>AM I BROKE??</h1>
+      <p>
+        AM I BROKE is a simple tool to help you determine if you are financially
+        broke or not. It takes into account your income, expenses, and savings
+        to give you a clear picture of your financial situation.
+      </p>
+      <p>
+        To use AM I BROKE, simply enter your monthly income, monthly expenses,
+        and total savings. The tool will then calculate your net worth and
+        provide you with an answer to the question "Am I broke?"
+      </p>
+      <p>
+        Remember, being broke is not just about how much money you have, but
+        also about how you manage it. AM I BROKE can help you understand your
+        financial health and make informed decisions about your money.
+      </p>
+
+      <section>
+        <h2>Calculate Your Financial Status</h2>
+        <form id="financial-form">
+          <label for="income">Monthly Income:</label>
+          <input type="number" id="income" name="income" required /><br /><br />
+
+          <label for="expenses">Monthly Expenses:</label>
+          <input
+            type="number"
+            id="expenses"
+            name="expenses"
+            required
+          /><br /><br />
+
+          <label for="savings">Total Savings:</label>
+          <input
+            type="number"
+            id="savings"
+            name="savings"
+            required
+          /><br /><br />
+
+          <button type="submit">Calculate</button>
+        </form>
+
+        <div id="result"></div>
+      </section>
+    </main>
+  </body>
+</html>
