@@ -121,6 +121,11 @@ button:active {
   color: white;
 }
 
+#result.almost-broke {
+  background-color: #ffb36b;
+  color: white;
+}
+
 #result.not-broke {
   background-color: #51cf66;
   color: white;
