@@ -33,12 +33,31 @@
           <input type="number" id="income" name="income" required /><br /><br />
 
           <label for="expenses">Monthly Expenses:</label>
-          <input
-            type="number"
-            id="expenses"
-            name="expenses"
-            required
-          /><br /><br />
+          <div class="expens-input-group">
+            <input
+              type="text"
+              id="expense-name"
+              name="expense-name"
+              placeholder="e.g., Rent"
+              required
+            />
+            <input
+              type="number"
+              id="expense-amount"
+              name="expense-amount"
+              placeholder="e.g., 1200"
+              required
+            />
+            <button type="button" id="add-expense-btn">Add Expense</button>
+          </div>
+          <br />
+
+          <label for="">Expenses list:</label>
+          <ul class="expense-list"></ul>
+          <label for="">Expense total:</label>
+          <p class="expense-total">0</p>
+
+          <br /><br />
 
           <label for="savings">Total Savings:</label>
           <input
