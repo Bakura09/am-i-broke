@@ -61,7 +61,7 @@ const calLogic = (totalIncome, totalExpenses) => {
     result.textContent = "Getting Tight!";
   } else {
     result.className = "broke";
-    result.textContent = "Just Broke!";
+    result.textContent = "So Broke!";
   }
 };
 
